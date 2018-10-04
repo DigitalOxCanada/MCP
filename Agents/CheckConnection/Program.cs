@@ -23,7 +23,7 @@ namespace MCP.Agent.Template
             Ping x = new Ping();
             PingReply reply = x.Send(IPAddress.Parse(ip));
 
-            p.KeyVals.Add("GHC Server", ip);
+            p.KeyVals.Add("Server", ip);
             if (reply.Status == IPStatus.Success)
             {
                 p.Type = CMCPPackage.PackageType.Info;

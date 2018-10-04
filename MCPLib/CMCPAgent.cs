@@ -13,7 +13,7 @@ namespace MCP.Lib
         public string _id { get; set; }
 
         private string _name;
-        public string name
+        public string Name
         {
             get { return _name; }
             set
@@ -23,19 +23,19 @@ namespace MCP.Lib
             }
         }
 
-        public string description { get; set; }
-        public string type { get; set; }
-        public string cmdShellUrl { get; set; }
-        public int? parent { get; set; }
-        public string category { get; set; }
-        public IList<int> ancestors { get; set; }
-        public string icon { get; set; }
+        public string Description { get; set; }
+        public string Type { get; set; }
+        public string CmdShellUrl { get; set; }
+        public int? Parent { get; set; }
+        public string Category { get; set; }
+        public IList<int> Ancestors { get; set; }
+        public string Icon { get; set; }
 
-        public string picSource
+        public string PicSource
         {
             get
             {
-                return string.Format("Content/agenticons/{0}", string.IsNullOrEmpty(this.icon) ? "nopic.png" : this.icon);
+                return string.Format("Content/agenticons/{0}", string.IsNullOrEmpty(this.Icon) ? "nopic.png" : this.Icon);
             }
         }
 
@@ -67,11 +67,7 @@ namespace MCP.Lib
 
         protected void OnPropertyChanged(string propertyName = null)
         {
-            var eventHandler = this.PropertyChanged;
-            if (eventHandler != null)
-            {
-                eventHandler(this, new PropertyChangedEventArgs(propertyName));
-            }
+            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 
