@@ -9,26 +9,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agents", "Agents", "{D9C500
 		Agents\ADEnabledUsers\MCP_Agent_ADEnabledUsers.ps1 = Agents\ADEnabledUsers\MCP_Agent_ADEnabledUsers.ps1
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentTemplate", "Agents\AgentTemplate\AgentTemplate.csproj", "{88AAE405-E51A-4F95-8AE2-E843DECD9037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgentTemplate", "Agents\AgentTemplate\AgentTemplate.csproj", "{88AAE405-E51A-4F95-8AE2-E843DECD9037}"
 	ProjectSection(ProjectDependencies) = postProject
 		{49B118A4-66CA-4DBA-A8D4-66B75C9DE974} = {49B118A4-66CA-4DBA-A8D4-66B75C9DE974}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPLib", "MCPLib\MCPLib.csproj", "{49B118A4-66CA-4DBA-A8D4-66B75C9DE974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCPLib", "MCPLib\MCPLib.csproj", "{49B118A4-66CA-4DBA-A8D4-66B75C9DE974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckConnection", "Agents\CheckConnection\CheckConnection.csproj", "{1DC9224C-9434-4467-B16B-EE8388B73D5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckConnection", "Agents\CheckConnection\CheckConnection.csproj", "{1DC9224C-9434-4467-B16B-EE8388B73D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointOrphanedUsers", "Agents\SharePointOrphanedUsers\SharePointOrphanedUsers.csproj", "{E7D67081-5F7B-40D8-B98A-5F331E79E50C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharePointOrphanedUsers", "Agents\SharePointOrphanedUsers\SharePointOrphanedUsers.csproj", "{E7D67081-5F7B-40D8-B98A-5F331E79E50C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePointCALogs", "Agents\SharePointCALogs\SharePointCALogs.csproj", "{9EEDDA20-15FB-4926-A2F6-D4BDCBD66A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharePointCALogs", "Agents\SharePointCALogs\SharePointCALogs.csproj", "{9EEDDA20-15FB-4926-A2F6-D4BDCBD66A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropWatcher", "DropWatcher\DropWatcher.csproj", "{D0F7E783-36C0-46FB-A32B-E6ECC6BE691C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropWatcher", "DropWatcher\DropWatcher.csproj", "{D0F7E783-36C0-46FB-A32B-E6ECC6BE691C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96BBAAF8-5460-4A8C-BF39-F808B70CEBFE}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHLogs", "Agents\IHLogs\IHLogs.csproj", "{5EB05830-3A99-40E0-872A-E7B2390F28BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -138,6 +140,22 @@ Global
 		{D0F7E783-36C0-46FB-A32B-E6ECC6BE691C}.Release|x64.Build.0 = Release|Any CPU
 		{D0F7E783-36C0-46FB-A32B-E6ECC6BE691C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D0F7E783-36C0-46FB-A32B-E6ECC6BE691C}.Release|x86.Build.0 = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|ARM.Build.0 = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|x64.Build.0 = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +165,7 @@ Global
 		{1DC9224C-9434-4467-B16B-EE8388B73D5E} = {D9C50050-323F-4D91-8B2A-792787F88B8A}
 		{E7D67081-5F7B-40D8-B98A-5F331E79E50C} = {D9C50050-323F-4D91-8B2A-792787F88B8A}
 		{9EEDDA20-15FB-4926-A2F6-D4BDCBD66A16} = {D9C50050-323F-4D91-8B2A-792787F88B8A}
+		{5EB05830-3A99-40E0-872A-E7B2390F28BF} = {D9C50050-323F-4D91-8B2A-792787F88B8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB946ADC-DBA3-4785-B9C2-424708004E6F}

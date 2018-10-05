@@ -6,7 +6,7 @@ using System.Text;
 using MCP.Lib;
 using Microsoft.SharePoint.Client;
 
-namespace MCP.Agent.Template
+namespace MCP.Agent.SharePointOrphanedUsers
 {
     class Program
     {

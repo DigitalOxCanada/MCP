@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using MCP.Lib;
 using Microsoft.SharePoint.Client;
 
-namespace MCP.Agent.Template
+namespace MCP.Agent.SharePointCALogs
 {
     class Program
     {

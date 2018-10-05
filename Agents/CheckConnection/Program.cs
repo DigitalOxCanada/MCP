@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using MCP.Lib;
 
-namespace MCP.Agent.Template
+namespace MCP.Agent.CheckConnection
 {
     class Program
     {
