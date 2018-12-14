@@ -4,7 +4,7 @@ MCP idea came from the original Tron movie with the Master Control Program as a 
 ## The Goal
 The goal of MCP is to have a code centric solution with mechanisms to collect various types of information reported back to a central repository in which is viewed in a dashboard.
 
-## Whos is this for?  
+## Who is this for?  
 It's initial intent was for I.T. staff to have a single place to go for errors, warnings, alerts, etc. across their environment. And with ongoing data collections recognizing patterns or reliability issues from a high level perspective of their environment.
 
 ## How does it work?  
